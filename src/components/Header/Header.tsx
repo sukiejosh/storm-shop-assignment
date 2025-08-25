@@ -84,8 +84,8 @@ function App() {
                         </a>
                         <Typography noWrap component='nav' className={`${resStyles('header_nav', resolution)}`}>
                             <Toolbar className={resStyles("nav_block", resolution)}>
-                                <Link to="/"><PinkButton sx={buttonStyles} startIcon={<DiamondRoundedIcon style={{ marginRight: '4px' }} />}>SUBSCRIPTIONS</PinkButton></Link>
-                                <Link to="/scripts"><BlueButton sx={buttonStyles} startIcon={<CodeRoundedIcon style={{ marginRight: '4px' }} />}>SCRIPTS</BlueButton></Link>
+                                <Link to="/"><PinkButton sx={buttonStyles} startIcon={<DiamondRoundedIcon style={{ marginRight: '4px' }} />}>Create Account</PinkButton></Link>
+                                <Link to="/scripts"><BlueButton sx={buttonStyles} startIcon={<CodeRoundedIcon style={{ marginRight: '4px' }} />}>Login Account</BlueButton></Link>
                             </Toolbar>
 
                             <span style={{ fontSize: '32px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>|</span>
